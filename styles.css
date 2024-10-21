@@ -85,7 +85,7 @@ nav ul li a:hover {
     font-size: large;
 }
 
-#hero {
+#head-part {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -94,12 +94,12 @@ nav ul li a:hover {
     color: white;
 }
 
-#hero h1 {
+#head-part h1 {
     font-size: 50px;
     margin-bottom: 20px;
 }
 
-#hero h1 span {
+#head-part h1 span {
     color: #ff6347;
 }
 
@@ -247,8 +247,7 @@ nav ul li a:hover {
     box-shadow: 0px 1px 8px white;
 }
 
-#contact-form input, 
-#contact-form textarea {
+#contact-form input, #contact-form textarea {
     padding: 10px;
     margin: 10px 0;
     width: 100%;
