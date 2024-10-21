@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="portfolio-display">
+        <nav>
+            <div class="logo">
+                <h1 class="text-color logo-1">Portfolio</h1>
+            </div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><button class="contactBtn" id="contact-view-btn">Contact</button></li>
+            </ul>
+        </nav>
+
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Hello, I'm <span>Hariharan</span></h1>
+                <p class="para">A Web Developer</p><br>
+                <a href="project.html" class="btn">See My Work</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2 class="about-header">About Me</h2><br>
+            <p class="text-color about-para">Hello, I'm Hariharan, A Web Developer. My journey in development began with a curiosity for how websites are built, Let’s build something amazing together!</p>
+        </section>
+
+        <section id="skills">
+            <h2 class="text-color skills-h2">Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <h3 class="text-color skills-h3">HTML</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level html-level"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3 class="text-color skills-h3">CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level css-level"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3 class="text-color skills-h3">JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level js-level"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section id="contact" class="hidden">
+        <h2 class="text-color">Contact Me</h2><br>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" >
+            <input type="email" placeholder="Your Email" >
+            <textarea placeholder="Your Message" ></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+        <button id="portfolio-view-btn" class="contact-home-btn">Home</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

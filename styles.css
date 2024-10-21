@@ -1,0 +1,353 @@
+
+*{
+    font-family: 'Arial', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #081b29;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color:  rgb(9, 79, 139);
+    box-shadow:  0px 0px 10px lavender;
+    z-index: 100;
+}
+
+.home-btn{
+    padding: 12px 0px;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ddd;
+    margin: 3px 3vw 0px 0px;
+}
+
+.home-btn:hover{
+    color: #ff6347;
+}
+
+.text-color{
+    color: lavender;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgb(9, 79, 139);
+    padding: 5px 20px;
+    box-shadow:  0px 0px 15px lavender;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+.logo-1{
+    margin:0px 2px;
+}
+
+.contactBtn{
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border: none;
+}
+
+.contactBtn:hover{
+    color: #ff6347;
+}
+
+.para{
+    font-size: large;
+}
+
+#hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#hero h1 span {
+    color: #ff6347;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e55330;
+}
+
+#about{
+    margin: 0px 0px 0px 35px;
+}
+
+.about-header{
+    color:#ff6347;
+}
+
+
+#projects {
+    
+    padding: 50px 0;
+    background-color: #081b29;
+    text-align: center;
+}
+
+.project-title{
+    color: #ddd;
+    margin: 0;
+    padding: 10px;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 50px;
+}
+
+.view-proj-btn{
+    position: relative;
+    bottom: 10px;
+}
+
+.project-card {
+    color: #081b29;
+    background-color: lavender;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.img{
+    border-radius: 4px;
+}
+
+.img-1{
+    width: 38vw;
+    height: 49vh;
+}
+.project-card:hover {
+    box-shadow:  0px 0px 15px lavender;
+    transform: translateY(-10px);
+}
+
+#skills {
+    padding: 50px 0;
+    background-color: #081b29;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+
+.skill {
+    width: 30%;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.skill-level {
+    height: 10px;
+    background-color: #ff6347;
+    border-radius: 10px;
+}
+
+.html-level {
+    width: 90%;
+}
+
+.css-level {
+    width: 80%;
+}
+
+.js-level {
+    width: 70%;
+}
+
+.hidden{
+    display:none;
+}
+
+#contact {
+    background: url('Assets/Signin_bg.jpg') no-repeat center center/cover;
+    padding: 50px 0;
+    background-color: #081b29;
+    text-align: center;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-home-btn{
+    border: none;
+    border-radius: 4px;
+    margin: 10vh;
+    padding: 5px 10px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 500px;
+    color: rgb(0, 1, 7);
+}
+
+.contact-home-btn:hover{
+    color: #ff6347;
+    box-shadow: 0px 1px 8px white;
+}
+
+#contact-form input, 
+#contact-form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    padding: 10px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #e55330;
+}
+
+@media screen and (max-width:320px) {
+
+    nav ul li{
+        margin: 5px;
+    }
+
+    nav ul li a {
+        font-size: 10px;
+    }
+    .logo-1{
+        font-size: 17px;
+    }
+    nav{
+        padding: 10px;
+    }
+    .contactBtn{
+        font-size: 10px;
+    }
+    #hero{
+        height: 110vh;
+    }
+    #hero h1{
+        font-size: 25px;
+    }
+    .para{
+        font-size: smaller;
+        position: relative;
+        bottom: 20px;
+    }
+    .btn{
+        position: relative;
+        bottom: 25px;
+        padding: 5px 10px;
+    }
+    .about-header{
+        font-size: 19px;
+    }
+    .about-para{
+        font-size: 13px;
+        padding: 0px 15px 0px 0px;
+    }
+    .skills-h2{
+        font-size: 19px;
+    }
+    .skills-h3{
+        margin: 16px 0px 0px 0px;
+        font-size: 14px;
+    }
+    .skill-level{
+        height: 5px;
+    }
+    .skill-bar{
+        height: 5px;
+    }
+    .project-title{
+        font-size: 19px;
+        padding: 12px 12px;
+    }
+    .home-btn{
+        font-size: 15px;
+        padding: 16px 12px;
+    }
+    .img-1{
+        width: 40vw;
+        height: 26vh;
+    }
+    .view-proj-btn{
+        position: relative;
+        top: 1px;
+    }
+    .img-2{
+        width: 40vw;
+        height: 26vh;
+    }
+    #contact-form {
+        max-width: 320px;
+        margin: 10px 70px;
+    }
+    .contact-home-btn{
+        font-size: 13px;
+    }
+}
